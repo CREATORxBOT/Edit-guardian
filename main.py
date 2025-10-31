@@ -7,11 +7,11 @@ def start(update: Update, context: CallbackContext):
     mention = f"{user.first_name}"
     keyboard = [
         [
-            InlineKeyboardButton("Source Code", url=f"https://github.com/CREATORxBOT/Edit-guardian"),
-            InlineKeyboardButton("ASSOCIATION", url=f"https://t.me/fz_creator")
+            InlineKeyboardButton("Source Code", url=f"https://files.catbox.moe/4q55hr.jpg"),
+            InlineKeyboardButton("SUPPORT", url=f"https://t.me/BOT_X_SUPPORT")
         ],
         [
-            InlineKeyboardButton("Add me to group", url=f"https://t.me/Edit_guardian_Pro_bot?startgroup=true")
+            InlineKeyboardButton("Add me to group", url=f"https://t.me/EditGuardianBBot?startgroup=true")
         ],
         [
             InlineKeyboardButton("owner", url=f"https://t.me/fz_creator"),
