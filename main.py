@@ -18,7 +18,7 @@ def start(update: Update, context: CallbackContext):
         ]
     ]
 
-    context.bot.send_photo(chat_id=update.effective_chat.id, photo="https://files.catbox.moe/vt8fag.jpg")
+    context.bot.send_photo(chat_id=update.effective_chat.id, photo="https://files.catbox.moe/vk9l6i.jpg")
     update.message.reply_text(f"Hello! {mention}! I am Edit Guardian bot I delete Edited message", reply_markup=InlineKeyboardMarkup(keyboard))
 
 def check_edit(update: Update, context: CallbackContext):
